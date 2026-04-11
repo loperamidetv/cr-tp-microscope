@@ -54,3 +54,85 @@ Bien que l'œil humain soit capable d'accommoder pour voir net une image située
 \textit{Punctum Remotum} (infini) et son 
 \textit{Punctum Proximum} (considéré à $25 cm$ en optique géométrique), 
 la visée à l'infini est privilégiée pour une observation prolongée.
+
+\subsection{Puissance intrinsèque et Grossissement commercial}
+
+Pour caractériser les performances d'un microscope, on définit deux grandeurs principales : la puissance et le grossissement.
+
+\begin{enumerate}
+    \item \textbf{La Puissance ($P$)} : 
+    Elle est définie par le rapport entre l'angle $\theta'$ 
+    sous lequel on voit l'image à travers l'instrument et la taille réelle de l'objet $AB$.
+    \begin{equation}
+        P = \frac{\theta'}{AB}
+    \end{equation}
+    La puissance s'exprime en dioptries ($\delta$) 
+    si $AB$ est en mètres. 
+    La \textit{puissance intrinsèque} (lorsque l'image finale est à l'infini) 
+    est donnée par la relation :
+    \begin{equation}
+        P_{i} = \frac{\Delta}{f'_1 f'_2}
+    \end{equation}
+    où $\Delta$ est l'intervalle optique, $f'_1$ la focale de l'objectif et $f'_2$ celle de l'oculaire.
+
+    \item \textbf{Le Grossissement commercial ($G$)} : C'est le rapport entre l'angle $\theta'$ 
+    et l'angle $\theta$ sous lequel l'objet serait vu à l'œil nu 
+    s'il était placé à la distance minimale de vision distincte standard ($d_m = 0,25$ m).
+    \begin{equation}
+        G = \frac{\theta'}{\theta} = P \times d_m
+    \end{equation}
+    En utilisant la valeur standard de $d_m$, on obtient la relation pratique souvent utilisée en TP :
+    \begin{equation}
+        G = \frac{P}{4}
+    \end{equation}
+\end{enumerate}
+
+\subsection{Le cercle oculaire}
+
+Le cercle oculaire est défini comme l'image de la monture de l'objectif 
+donnée par l'oculaire. 
+
+Le cercle oculaire possède deux propriétés fondamentales :
+\begin{itemize}
+    \item Il constitue la section la plus étroite du faisceau lumineux sortant du microscope.
+    \item C'est le lieu de passage de toute la lumière issue de l'objet et traversant l'instrument.
+\end{itemize}
+
+Pour une observation optimale, 
+l'observateur doit placer la pupille de son œil au niveau de ce cercle. 
+Cette position permet de capter le maximum de rayons lumineux 
+et de capter la totalité du champ de vision de l'instrument sans effet d'ombre.
+
+\subsection{Pouvoir séparateur et limite de résolution}
+
+Le pouvoir séparateur est la capacité d'un système optique 
+(l'œil dans notre cas) à distinguer deux points voisins comme des entités distinctes. 
+Si deux points sont trop proches, 
+l'oeil ne perçoit qu'une seule tache floue.
+
+On définit la \textbf{limite de résolution angulaire} ($\epsilon$) 
+comme l'angle minimal sous lequel deux points $A$ et $B$ peuvent être vus séparés. 
+
+Pour un œil humain normal et bien éclairé, 
+cette limite de résolution est d'environ :
+\begin{equation}
+    \epsilon \approx 1' \approx 3 \cdot 10^{-4} \space \mathrm{rad}
+\end{equation}
+
+\subsection{Étalonnage et micrométrie}
+
+Pour mesurer un objet (comme une larve de \textit{Pluteus}),
+on utilise un oculaire gradué.
+Puisque la taille de l'image dépend de l'objectif,
+il est nécessaire de connaître la distance réelle correspondant à une graduation de l'oculaire.
+
+L'étalonnage consiste à superposer l'échelle de l'oculaire
+à une règle millimétrée placée sur la platine.
+On détermine alors la valeur d'une graduation par la relation :
+
+\begin{equation}
+    1 \, \mathrm{grad. \, oculaire} = \frac{\text{Distance lue sur la règle}}{\text{Nombre de graduations de l'oculaire}}
+\end{equation}
+
+Cette étape permet de convertir une mesure faite sur le \textit{Pluteus} (en nombre de graduations)
+en une dimension réelle (en $\mu\mathrm{m}$ ou $\mathrm{mm}$).
