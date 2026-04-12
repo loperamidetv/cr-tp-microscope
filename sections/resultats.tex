@@ -1,0 +1,122 @@
+\subsection{Limite de séparation de l'œil (Mire de Foucault)}
+
+L'objectif de cette manipulation est de déterminer le pouvoir séparateur $\epsilon$ de l'œil.
+Nous utilisons pour cela une mire de Foucault
+présentant une période $a = 4 \pm 0,1 \text{ mm}$.
+La distance limite de résolution $D_m$ est mesurée pour deux observateurs
+dans différentes conditions de vision.
+
+Le pouvoir séparateur est calculé par la relation relative aux petits angles,
+décrite par la formule présentée en partie théorique. \eqref{eq:pouvoir_separation}
+
+Les mesures expérimentales et les résultats calculés
+sont synthétisés dans le tableau suivant :
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|l|l|c|c|}
+        \hline
+        \textbf{Observateur} & \textbf{Condition} & \textbf{Distance $D_m$ (m)} & \textbf{Pouvoir séparateur $\epsilon$ (rad)} \\
+        \hline
+        Observateur 1 & Sans correction & $3,66 \pm 0,05$ & $1,09 \cdot 10^{-3}$ \\
+        \hline
+        Observateur 2 & Sans correction & $2,43 \pm 0,05$ & $1,65 \cdot 10^{-3}$ \\
+        \hline
+        Observateur 2 & Avec correction & $5,32 \pm 0,05$ & $0,75 \cdot 10^{-3}$ \\
+        \hline
+    \end{tabular}
+    \caption{Mesures du pouvoir séparateur de l'œil pour différents sujets.}
+    \label{tab:mire_foucault}
+\end{table}
+
+\subsubsection{Mesure du champ latéral}
+
+Le champ latéral représente le diamètre de la zone objet visible à travers le microscope.
+Cette mesure est effectuée à l'aide du micromètre-objet placé sur la platine.
+Le micromètre utilisé présente une graduation où une grande division 
+est subdivisée en 5 petites graduations ($1 \text{ p.g.} = 0,01 \text{ mm}$).
+
+Les diamètres de champ $D_{champ}$ mesurés sont :
+\begin{itemize}
+    \item \textbf{Objectif $\times 4$} : $D_{champ} = 4,5 \text{ mm}$ ;
+    \item \textbf{Objectif $\times 10$} : $D_{champ} = 1,8 \text{ mm}$ ;
+    \item \textbf{Objectif $\times 40$} : $D_{champ} = 0,45 \text{ mm}$.
+\end{itemize}
+
+\subsubsection{Cercle oculaire}
+
+Le cercle oculaire, correspondant à l'image de la pupille d'entrée par l'oculaire,
+a été localisé à quelques millimètres au-dessus de la lentille de sortie.
+Son diamètre a été estimé à :
+\begin{equation}
+    D_{co} \approx 1,5 \text{ mm}
+\end{equation}
+
+\subsection{Détermination du grossissement commercial}
+
+Le grossissement a été mesuré expérimentalement à l'aide d'une chambre claire
+en utilisant l'objectif $\times 10$.
+Nous avons fait correspondre une longueur $AB$ sur le micromètre-objet
+à une longueur $A'B'$ projetée sur une règle millimétrée externe.
+
+L'oculaire utilisé pour cette mesure possède un grossissement propre de $G_{oc} = 10$.
+
+Les données recueillies sont les suivantes :
+\begin{itemize}
+    \item Taille de l'objet : $AB = 10 \text{ p.g.} = 0,1 \text{ mm}$ ;
+    \item Taille de l'image projetée : $A'B' = 1 \text{ cm} = 10 \text{ mm}$.
+\end{itemize}
+
+Le grossissement commercial $G_c$ est calculé par le rapport :
+\begin{equation}
+    G_c = \frac{A'B'}{AB} = \frac{10}{0,1} = 100
+\end{equation}
+
+À partir de ce résultat, nous déterminons la puissance intrinsèque $P_i$ du microscope
+(exprimée en dioptries $\delta$) par la relation :
+\begin{equation}
+    P_i = 4 \times G_c = 400 \delta
+\end{equation}
+
+\subsection{Mesure des dimensions du Pluteus}
+
+Cette dernière partie consiste à mesurer les dimensions réelles d'une larve d'oursin (Pluteus) 
+en utilisant un oculaire micrométrique préalablement étalonné.
+
+\subsubsection{Étalonnage de l'oculaire micrométrique}
+
+L'étalonnage a été réalisé en comparant les graduations de l'oculaire
+aux divisions du micromètre-objet (objectif $\times 10$).
+L'observation directe a permis d'établir la relation suivante :
+\begin{itemize}
+    \item Une graduation de l'oculaire correspond exactement à une graduation du micromètre-objet ;
+    \item La valeur d'une graduation du micromètre-objet est de $0,01 \mathrm{~mm}$.
+\end{itemize}
+
+On en déduit la valeur d'une graduation de l'oculaire, notée $C_{\mathrm{oc}}$ :
+\begin{equation}
+    C_{\mathrm{oc}} = 0,01 \mathrm{~mm} = 10 \mathrm{~\mu m/div}
+\end{equation}
+
+\subsubsection{Dimensions de la larve Pluteus}
+
+Après avoir substitué le micromètre-objet par la lame du Pluteus,
+nous avons relevé les dimensions caractéristiques de la larve (objectif $\times 10$).
+Les mesures en divisions oculaires ($\mathrm{div}$) et leur conversion en micromètres ($\mathrm{\mu m}$) 
+sont présentées ci-dessous :
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|l|c|c|c|c|}
+        \hline
+        \textbf{Échantillon} & \textbf{Grand axe (div)} & \textbf{Petit axe (div)} & \textbf{Dimensions ($\mathrm{\mu m}$)} & \textbf{Moyenne ($\mathrm{\mu m}$)} \\
+        \hline
+        Œuf n°1 & 6 & 5 & $60 \times 50$ & 55 \\
+        \hline
+        Œuf n°2 & 8 & 4 & $80 \times 40$ & 60 \\
+        \hline
+        Œuf n°3 & 4 & 4 & $40 \times 40$ & 40 \\
+        \hline
+    \end{tabular}
+    \caption{Dimensions des larves d'oursin mesurées à l'oculaire micrométrique.}
+    \label{tab:mesures_oeufs}
+\end{table}
